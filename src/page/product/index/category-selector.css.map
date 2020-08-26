@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,YAAY;EACR,KAAK,EAAC,KAAK;EACX,YAAY,EAAE,IAAI;EAClB,OAAO,EAAE,YAAY",
+"sources": ["category-selector.scss"],
+"names": [],
+"file": "category-selector.css"
+}
