@@ -50,13 +50,14 @@ class OrderDetail extends React.Component{
 	render(){
 		let receiverInfo=this.state.orderInfo.shippingVo || {},
 		    productList=this.state.orderInfo.orderItemVoList || [];
-		let tableHeads=[
-		{name:'商品图片',width:'10%'},
-		{name:'商品信息',width:'45%'},
-		{name:'单价',width:'15%'},
-		{name:'数量',width:'15%'},
-		{name:'合计',width:'15%'}
-		]
+		// let tableHeads=[
+		// {name:'商品图片',width:'10%'},
+		// {name:'商品信息',width:'45%'},
+		// {name:'单价',width:'15%'},
+		// {name:'数量',width:'15%'},
+		// {name:'合计',width:'15%'}
+		// ]
+		let tableHeads = ['商品图片', '商品信息', '单价', '数量', '合计']
 		return (
 			<div id="page-wrapper">
 			   <PageTitle title="订单详情" />
